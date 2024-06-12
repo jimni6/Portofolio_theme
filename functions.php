@@ -16,6 +16,7 @@ function pga_supports () {
 // Add the style.css stylesheet
 function pga_register_assets () {
     wp_enqueue_style('style', get_stylesheet_uri());
+    wp_enqueue_script('jquery');
     wp_enqueue_script(
         'script', 
         get_parent_theme_file_uri('script.js'), 
@@ -23,6 +24,8 @@ function pga_register_assets () {
         array('strategy'  => 'defer',)
     );
 }
+
+
 
 add_action( 'after_setup_theme', 'pga_supports');
 add_action('wp_enqueue_scripts', 'pga_register_assets');

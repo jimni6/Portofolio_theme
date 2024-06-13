@@ -252,26 +252,26 @@
                     />
                 </a>
                 <div class="cardTop">
-                    <span class="cardTitle" style="color:#555C50; border-bottom: 1px solid #fff;">
+                    <span class="cardTitle" style="color:#fff; border-bottom: 1px solid #555C50;">
                             MaChat'
                     </span>
                     <a target="_blank" href="https://github.com/jimni6/chat-app">
-                        <svg class="github-icon green" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <svg class="github-icon white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                             <path d="M12 .297c-6.6 0-12 5.4-12 12 0 5.3 3.4 9.8 8.2 11.4.6.1.8-.2.8-.5v-2c-3.3.7-4-.9-4-.9-.5-1.3-1.2-1.7-1.2-1.7-1-.7.1-.7.1-.7 1.1 0 1.7 1.1 1.7 1.1.9 1.5 2.3 1 2.9.7.1-.6.3-1 .5-1.2-2.7-.3-5.5-1.4-5.5-6.1 0-1.3.5-2.4 1.2-3.3-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2 1-.3 2-.4 3-.4s2 .1 3 .4c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.1.8.9 1.2 2 1.2 3.3 0 4.7-2.8 5.8-5.5 6.1.3.3.6.8.6 1.7v2.5c0 .3.2.6.8.5 4.8-1.6 8.2-6.1 8.2-11.4 0-6.6-5.4-12-12-12z"/>
                         </svg>
                     </a>
                 </div>
                 <div class="cardContent">
-                    <div class="cardStack" style="color:#555C50; font-size: 18px; ">
+                    <div class="cardStack" style="color:#fff; font-size: 18px; ">
                         <span>HTML / CSS</span>
                         <span>Javascript</span>
                         <span>ReactJS</span>
                         <span>Git</span>
                         <span>Firebase</span>
                         <span>Déployé avec Vercel</span>
-                        <span style="border-bottom: 1px solid #fff;"></span>
+                        <span style="border-bottom: 1px solid #555C50;"></span>
                     </div>
-                    <div class="cardTask" style="color:#555C50;">
+                    <div class="cardTask" style="color:#fff;">
                         <span style="font-weight: 300; font-size:20px;">J'ai créé une messagerie instantanée</span>
                         <span>Il s'agit ici d'un projet de messagierie instantanée.</span>
                         <span>J'ai utilisé Firebase de Google afin de gérer l'authentification et la base de donnée.</span>

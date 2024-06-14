@@ -1,3 +1,16 @@
+document.addEventListener('DOMContentLoaded', function () {
+  var menuItems = document.querySelectorAll('.navbar .menu li a');
+  var checkbox = document.getElementById('menu-toggle');
+
+  menuItems.forEach(function (item) {
+      item.addEventListener('click', function () {
+          checkbox.checked = false;
+      });
+  });
+});
+
+
+
 const slider = document.querySelector('.gallery');
 let isDown = false;
 let startX;
@@ -25,4 +38,7 @@ slider.addEventListener('mousemove', e => {
   const walk = (x - startX) * SCROLL_SPEED;
   slider.scrollLeft = scrollLeft - walk;
 });
+
+
+
 

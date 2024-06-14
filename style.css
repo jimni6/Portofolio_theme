@@ -193,6 +193,20 @@ nav {
     text-decoration: none;
 }
 
+.social-icons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.social-icons a {
+    color: #000;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+.social-icons a:hover {
+    color: #0073b1; /* Change to your desired hover color */
+}
+
 .heroSection {
     display: flex;
     width: 100vw;
@@ -836,6 +850,16 @@ nav {
 
     .nav-container input[type="checkbox"]:checked~.logo {
         display: none;
+    }
+
+    .social-icons {
+        margin-top: -15vh;
+        margin-left: 26vw;
+        transform: translate(-150%);
+        transition: transform 0.5s ease-in-out;
+    }
+    .nav-container input[type="checkbox"]:checked ~ .social-icons {
+        transform: translateX(0); /* Slide icons into view */
     }
 
     .job h3 {
